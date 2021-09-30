@@ -3,6 +3,8 @@
 :host {
 	main {
 		margin-top: rem-calc(40);
+		width: 80%;
+		max-width: 700px;
 
 		.pokemon__names {
 			position: relative;
@@ -58,14 +60,14 @@
 
 				background: var(--branco);
 
-				min-height: 43.9vh;
+				min-height: 33.9vh;
 				margin-top: rem-calc(10);
 
 				padding: rem-calc(110) rem-calc(35) rem-calc(30);
 				border-radius: rem-calc(50) rem-calc(50) 0 0;
 
 				h3 {
-					margin-bottom: rem-calc (20);
+					margin-bottom: 20px;
 					font-weight: 700;
 					font-style: italic;
 					font-size: rem-calc(32);
